@@ -1,10 +1,10 @@
-# Estado: Es el conjunto de atributos
-# Interfaz: Es el conjunto de métodos. Qué mensajes entiende la clase
+""" Estado: Es el conjunto de atributos
+Interfaz: Es el conjunto de métodos. Qué mensajes entiende la clase
 
-# ¿Cuáles son sus estados? alimento y caricias
-# ¿Cuáles son sus interfaces? energia, comer, alimentos
-# ¿Comparten interfaz? sí, comparten interfaz parcialmente
-# ¿Son polimórficas? No lo son, pero si existiera un tercer objeto que haga uso de ellos dos sí lo serían
+¿Cuáles son sus estados? alimento y caricias
+¿Cuáles son sus interfaces? energia, comer, alimento, estaDebil, pasear
+¿Comparten interfaz? sí, comparten interfaz parcialmente
+¿Son polimórficas? No lo son, pero si existiera un tercer objeto que haga uso de ellos dos sí lo serían """
 
 class Perro:
     def __init__(self):
