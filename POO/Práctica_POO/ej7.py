@@ -1,24 +1,33 @@
 class Gorriones:
-    def __init__(self, energia):
-        self.energia = energia
-        self.vuelo = 0
-        self.comida = 0
+    def __init__(self):
+        self.gramosActuales = 0
+        self.kmsActuales = 0
+        self.listaGramos = []
+        self.listaKms = []
     #El CSS resulta de dividir la cantidad total de kilómetros que vuela desde que se lo comienza a estudiar, 
     # por la cantidad total de gramos de comida que ingiere. 
-    def volar(self, km):
-        self.vuelo += km
+    def volar(self, kms):
+        self.listaKms.append(kms)
+        self.kmsActuales += kms
 
     def comer(self, gramos):
-        self.comida += gramos
+        self.listaGramos.append(gramos)
+        self.gramosActuales += gramos
 
     def CSS(self):
-        self.vuelo / self.comida
+        if self.gramosActuales > 0:
+            self.kmsActuales / self.gramosActuales
+        else:
+            return None
+
 # CSSP es la misma división pero considerando solamente lo que voló la vez que más voló y lo que comió la vez que más comió.
-    def CSSP(self, mayor_vuelo, mayor_comida):
-        self.mayor_vuelo /self.mayor_comida
+    def CSSP(self):
+        return max(self.listaKms) / max(self.listaGramos)
 
+#El CSSV es otra vez la misma idea, respecto de la cantidad de veces que voló y comió
     def CSSV(self):
-        self.cantidad_vuelos / self.cantidad_comidas
+        return len(self.listaKms) / len(self.listaGramos)
 
-    def equilibrio(self):
-        self.CSS > 0.5 and self.CSS < 2
+    def estaEnEquilibrio(self):
+        return 0.5 <= self.CSS() <=2
+        #self.CSS > 0.5 and self.CSS < 2
