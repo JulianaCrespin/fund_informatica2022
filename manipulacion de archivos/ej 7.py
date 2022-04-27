@@ -1,3 +1,4 @@
+# Escribí un porgrama que lea un archivo e identifique la palabra más larga, la cual debe imprimir y decir cuantos caracteres tiene.
 def palabra_larga(archivo):
     palabra_mas_larga = ""
     with open(archivo,"r") as file:

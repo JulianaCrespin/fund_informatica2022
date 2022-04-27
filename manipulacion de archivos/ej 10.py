@@ -1,3 +1,4 @@
+# Escribí un programa que añada a un archivo dado todos los archivos de texto (.txt) que hayan en una determinada carpeta.
 # os.listdir() # obtengo todos los archivos de una carpeta
 import glob
 import os

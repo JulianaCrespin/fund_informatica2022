@@ -1,3 +1,4 @@
+#Escribí un programa que abra dos documentos y guarde el contenido de ambos en un otro documento ya existente.
 def guardar(archivo1, archivo2, arch_existente):
     with open(arch_existente, "a") as s:
         archivo1 = open("r")

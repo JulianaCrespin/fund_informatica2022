@@ -1,3 +1,4 @@
+# Modificar la clase Golondrina vista en la teoría para poder preguntar si una golondrina está en equilibrio. Este equilibrio se alcanza cuando la energía se encuentra entre 150 y 300.
 class Golondrina:
   def __init__(self, energia):
     self.energia = energia

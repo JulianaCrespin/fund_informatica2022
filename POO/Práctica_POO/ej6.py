@@ -1,3 +1,15 @@
+# Implementá una clase que represente una calculadora sencilla, que permita sumar, restar y multiplicar. Este objeto debe entender los siguientes mensajes:
+
+# cargar(numero)
+
+# sumar(numero)
+
+# restar(numero)
+
+# multiplicar(numero)
+
+# valorActual()
+
 class Calculadora:
     def __init__(self):
          self.valor = 0
