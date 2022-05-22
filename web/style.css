@@ -1,0 +1,16 @@
+body{
+    margin-left: 20px;
+}
+
+.titulo{
+    margin-left: 20px;
+    /* le estoy dando 20 pixeles */
+    background-color: mistyrose;
+    border: black 9px dotted;
+    padding-left: 33px;
+}
+
+.galeria img{
+    width: 379px;
+    height: 226px;
+}
