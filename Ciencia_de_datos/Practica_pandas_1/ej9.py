@@ -9,5 +9,5 @@ new_dict = {}
 for nombre in df["nombre"]:
     new_dict[nombre.upper()] = len(nombre)
 
-df2 = pd.dataFrame(new_dict.items())
+df2 = pd.DataFrame(new_dict.items())
 print(df2)
