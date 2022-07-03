@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(75, 1, 158)
+}
+.titulo{
+    padding-left: 20px; 
+    background-color: red; 
+    color: rgb(75, 1, 158); 
+    font-family:'Open Sans'; 
+    font-size: 30px; 
+    margin-right: 1000px;
+    margin-left: -20px
+}
+.subhead{
+    padding-left: 20px; 
+    padding-bottom: 10px;
+    background-color: rgb(75, 1, 158); 
+    color: white;
+    font-family:'Open Sans'; 
+    margin-left: -20px
+}
+.sucursales{
+    padding-left: 20px; 
+    color: blueviolet;
+    font-family:'Segoe UI'; 
+    background-color: white; 
+    padding-bottom: 5px; 
+    padding-top: 5px; 
+    margin-left: -20px 
+}
+.enlace{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(75, 1, 158); 
+    color: white; 
+    font-family:'Segoe UI';
+    font-style: bold; 
+    text-align: center; 
+    margin-left: -20px
+}

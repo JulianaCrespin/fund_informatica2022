@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: blue;
+}
+h1{
+    color: blueviolet;
+background-color: darkred;
+padding-left: 20px;
+font-family: fangsong;
+}
+
+.header{ background-color: blue;
+    height: 35vw
+
+}
+
+h2{ color: white; 
+
+}
+.sucursales div{
+    padding-left: 9%; padding-top: 5%
+}

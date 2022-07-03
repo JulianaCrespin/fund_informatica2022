@@ -1,0 +1,5 @@
+3)b) ¿Qué etiquetas de HTML conocés? ¿Para qué sirven?
+<img> para insertar imágenes
+<table> para crear tablas 
+<ul><li> para construir listas 
+<strong> para resaltar palabras o frases en negrita 
