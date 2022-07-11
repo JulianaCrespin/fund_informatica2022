@@ -11,3 +11,6 @@ def start_with(letra, archivo):
 
 
 start_with("H","mi_arch2")
+
+""" rmdir Borra directorios (los directorios deben estar vacíos).
+rm -d Borra directorios (los directorios pueden no estar vacíos) """
